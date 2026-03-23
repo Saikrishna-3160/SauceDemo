@@ -1,6 +1,7 @@
 import { test, expect } from '../fixtures/loginFixture';
 import { testData } from '../data/testData';
 
+//Consolidated Login and Authentication Tests for Sauce Demo Application
 test.describe('1. Login and Authentication', () => {
 
     test.beforeEach(async ({ loginPage }) => {
